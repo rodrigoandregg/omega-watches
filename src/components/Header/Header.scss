@@ -1,0 +1,91 @@
+@import '../../../index.scss';
+
+.Header {
+  @include flexBox($jc: flex-start);
+  position: absolute;
+  width: 100%;
+  padding: 1em 2em;
+  gap: 1em;
+
+  &-logo {
+    color: $accent;
+    font-size: 1.6em;
+  }
+
+  &-form {
+    @include flexBox($jc: flex-start);
+    gap: 1em;
+    width: 33%;
+    border: 2px solid $gray;
+    padding: 0em 1em;
+    border-radius: 3em;
+  }
+
+  &-label {
+    font-size: 1.1em;
+    color: $acrylic-dark;
+  }
+
+  &-search {
+    outline: none;
+    color: $accent;
+    padding: 0.3em;
+    font-size: 1.1em;
+  }
+}
+
+.Nav {
+  @include flexBox($jc: flex-start);
+  align-items: center;
+  width: 3em;
+  height: 3em;
+
+  &-btn {
+    font-size: 2em;
+    width: 3em;
+    color: $acrylic-dark;
+
+    &:hover {
+      color: $dark;
+    }
+
+    &:active {
+      color: $accent;
+    }
+  }
+
+  &-menu {
+    opacity: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: absolute;
+    width: 55%;
+    overflow: hidden;
+    top: 4em;
+    background-color: $accent;
+    border-radius: 0 0 0.2em 0.2em;
+    transition: all 0.2s;
+
+    &--open {
+      opacity: 1;
+    }
+  }
+
+  &-item {
+    @include flexBox;
+    padding: 0 1.5em;
+    height: 3em;
+    width: 100%;
+    user-select: none;
+    text-transform: uppercase;
+
+    &:hover {
+      background-color: $dark;
+      color: $light;
+    }
+
+    &:active {
+      background-color: $acrylic-dark;
+    }
+  }
+}

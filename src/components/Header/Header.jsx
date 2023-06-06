@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { ImOmega } from 'react-icons/im'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
+import './Header.scss'
 
 export const Header = () => {
   const [menuIsOpen, setMenuIsOpen] = useState(false)
