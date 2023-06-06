@@ -64,17 +64,19 @@
   }
 
   &-menu {
-    display: none;
+    opacity: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: absolute;
+    width: 55%;
+    overflow: hidden;
+    top: 4em;
+    background-color: $accent;
+    border-radius: 0 0 0.2em 0.2em;
+    transition: all 0.2s;
 
     &--open {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      position: absolute;
-      width: 55%;
-      overflow: hidden;
-      top: 4em;
-      background-color: $accent;
-      border-radius: 0 0 0.2em 0.2em;
+      opacity: 1;
     }
   }
 
