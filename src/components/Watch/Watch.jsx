@@ -26,7 +26,6 @@ export const Watch = ({ currentWatch }) => {
               }
               alt={currentWatch.images.front.alt}
               className='Watch-img'
-              loading='lazy'
             />
           </div>
           <div className='Watch-wrapper'>

@@ -16,7 +16,7 @@ En la imagen: James Bond (Daniel Craig) usando un reloj Omega, modelo Planet Oce
 ![James Bond usando un reloj Omega, modelo Planet Ocean 600M Skyfall](./public/images/James-Bond-Omega-Planet-Ocean-Skyfall-2.jpg)
 _fin del friki moment_.
 
-[![Live Site](https://img.shields.io/static/v1?label=&message=Live%20Site&color=6cccb4&style=for-the-badge)](https://omega-watches.vercel.app/)
+[![Live Site](https://img.shields.io/static/v1?label=&message=Live%20Site&color=6cccb4&style=for-the-badge)](https://omega-watches-w1ai-j7rk0dnfz-rodrigoandregg.vercel.app/)
 [![Github Repository](https://img.shields.io/static/v1?label=&message=Github%20Repository&color=000000&style=for-the-badge&logo=github&logoColor=white)](https://github.com/rodrigoandregg/omega-watches)
 
 ## Tecnologías usadas
