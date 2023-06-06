@@ -1,7 +1,7 @@
 import { createContext } from 'react'
 import { v4 as uuidv4 } from 'uuid'
 import { AiOutlineLeftCircle, AiOutlineRightCircle } from 'react-icons/ai'
-import { BsInstagram, BsTwitter, BsYoutube } from 'react-icons/bs'
+import { BsGithub, BsTwitter, BsYoutube } from 'react-icons/bs'
 import watch1Front from '../../public/images/omega-seamaster-aqua-terra-150m-front.png'
 import watch1Back from '../../public/images/omega-seamaster-aqua-terra-150m-back.png'
 import watch2Front from '../../public/images/omega-seamaster-diver-300m-front.png'
@@ -90,24 +90,24 @@ const data = {
   socialMedia: [
     {
       id: uuidv4(),
-      icon: <BsInstagram />,
-      alt: '',
-      title: '',
-      href: '#',
+      icon: <BsGithub />,
+      alt: 'Github',
+      title: 'Code on GitHub',
+      href: 'https://github.com/rodrigoandregg/omega-watches',
     },
     {
       id: uuidv4(),
       icon: <BsTwitter />,
-      alt: '',
-      title: '',
-      href: '#',
+      alt: 'Twitter',
+      title: 'Visit my profile',
+      href: 'https://twitter.com/soyrodrigoandre',
     },
     {
       id: uuidv4(),
       icon: <BsYoutube />,
-      alt: '',
-      title: '',
-      href: '#',
+      alt: 'Youtube',
+      title: 'Visit my Youtube channel',
+      href: 'https://www.youtube.com/channel/UCbnkLv5_JqEnxjUbSZO_8nA',
     },
   ],
   controls: {
