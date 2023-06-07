@@ -96,6 +96,17 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .Nav {
+    &-menu {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(4, 1fr);
+      width: 10em;
+      height: 12em;
+    }
+  }
+}
+
 @media (max-width: 860px) {
   .Header {
     &-form {
