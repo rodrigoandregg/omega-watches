@@ -6,7 +6,7 @@ Esta es la típica muestra de detalles de los productos de una tienda, o info de
 
 ### ¿Qué es _**Omega Watches**_?
 
-Según 🤓 [Wikipedia](<https://es.wikipedia.org/wiki/Omega_(relojer%C3%ADa)>): _**Omega**_ es un fabricante de relojes de lujo con base en Biel/Bienne, Suiza, perteneciente al Grupo Swatch.
+Según 🤓 [Wikipedia](https://omega-watches-w1ai.vercel.app/): _**Omega**_ es un fabricante de relojes de lujo con base en Biel/Bienne, Suiza, perteneciente al Grupo Swatch.
 
 Dada su veteranía, su popularidad, el haber sido el reloj empleado por astronautas en la Luna,​ su larga relación con el cronometraje deportivo y el ser patrocinador de los Juegos Olímpicos, Omega es uno de los emblemas de la industria relojera suiza.
 
