@@ -12,7 +12,7 @@ Dada su veteranía, su popularidad, el haber sido el reloj empleado por astronau
 
 Y obvio, el reloj del agente **007**, **James Bond** es un Omega, el cual va variando su modelo con el paso de las películas.
 
-En la imagen: James Bond (Daniel Craig) usando un reloj Omega, modelo Planet Ocean 600M Skyfall, cuyo precio de lanzamiento fue de aproximadamente **155 millones** de pesos chilenos
+En la imagen: James Bond (Daniel Craig) usando un reloj Omega, modelo Planet Ocean 600M Skyfall, que fue subastado por aproximadamente **155 millones** de pesos chilenos
 ![James Bond usando un reloj Omega, modelo Planet Ocean 600M Skyfall](./public/images/James-Bond-Omega-Planet-Ocean-Skyfall-2.jpg)
 _fin del friki moment_.
 

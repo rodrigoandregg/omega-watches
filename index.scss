@@ -10,7 +10,7 @@
 }
 
 .Main {
-  @include flexBox($ff: column nowrap, $jc: flex-start);
+  @include flexBox($ff: column nowrap);
   padding: 0 2em 0;
   width: 100%;
   height: 100%;
@@ -67,4 +67,7 @@
       color: $accent;
     }
   }
+}
+
+@media (max-width: 520px) {
 }

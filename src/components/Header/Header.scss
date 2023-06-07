@@ -10,6 +10,8 @@
   &-logo {
     color: $accent;
     font-size: 1.6em;
+    width: 1em;
+    height: 1em;
   }
 
   &-form {
@@ -31,6 +33,10 @@
     color: $accent;
     padding: 0.3em;
     font-size: 1.1em;
+
+    &::-webkit-search-cancel-button {
+      display: none;
+    }
   }
 }
 
@@ -86,6 +92,15 @@
 
     &:active {
       background-color: $acrylic-dark;
+    }
+  }
+}
+
+@media (max-width: 860px) {
+  .Header {
+    &-form {
+      width: 65%;
+      font-size: 0.8em;
     }
   }
 }
