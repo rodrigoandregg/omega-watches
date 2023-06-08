@@ -123,3 +123,32 @@ export const Provider = ({ children }) => {
     <GlobalContext.Provider value={data}>{children}</GlobalContext.Provider>
   )
 }
+
+/*
+watchObjectExample = {
+      id: uuidv4(),
+      collection: '',
+      subcollection: '',
+      name: '',
+      marketingName: '',
+      materials: '',
+      sku: '',
+      price: '',
+      btn: {
+        text: '',
+        title: '',
+        href: '',
+      },
+      images: {
+        front: {
+          src: '',
+          alt: '',
+        },
+        back: {
+          src: '',
+          alt: '',
+        },
+      },
+    },
+
+*/
